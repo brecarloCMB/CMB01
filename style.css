@@ -1,0 +1,131 @@
+
+.texto-centrado{
+    text-align: center;
+}
+
+.no-padding{
+    padding: 0;
+}
+/*Estilos boton verde*/
+.boton-verde{
+    background-color: green;
+}
+.boton-verde:hover{
+    background-color: rgb(0, 170, 0);
+    border-color: green;
+}
+.boton-verde:focus{
+    background-color: rgb(0, 170, 0);
+    border-color: green;
+}
+
+
+/*Estilos barra de navegacion */
+.navbar-nav .nav-link.letra-verde{
+    color: green;
+}
+.navbar-nav .nav-link.letra-verde:hover{
+    color: rgb(0, 199, 0);
+}
+.navbar-nav .nav-link.letra-verde:focus{
+    color: rgb(0, 199, 0);
+}
+.navbar-nav .nav-link.active-verde{
+    color: rgb(0, 199, 0);
+}
+
+/*Estilos banner superior */
+#bannerSuperior{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 3%;
+
+}
+#carouselSuperior{
+    max-height: 93vh;
+}
+.top-transparencia{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    background-color: black;
+    opacity: 50%;
+    z-index: 2;
+}
+.top-letra-clara{
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-block-end: 10%;
+    padding-inline-end: 10%;
+    z-index: 3;
+    color: white;
+    text-align: end;
+    overflow: auto;
+}
+
+/*Estilos card group */
+.card-group{
+    width: 80%;
+}
+.card{
+    margin: 2%;
+}
+
+/*Estilos formulario */
+.formulario{
+    width: 65%;
+    margin-block: 10px;
+}
+.margen-int-form{
+    margin-block: 10px;
+}
+.margen-int-form-md{
+    margin-block: 20px;
+}
+
+/*Estilo banner honolulu */
+#cardHonolulu{
+    margin: 0;
+    padding: 0;
+    margin-block: 3%;
+}
+#btnHonolulu{
+    border-color: blanchedalmond;
+}
+
+/*Estilo link dentro de texto */
+.link-texto{
+    color: black;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+.link-texto:hover{
+    color: grey;
+    border-bottom: 1px dotted grey;
+    text-decoration: none;
+}
+
+/*Estilo pie de pagina */
+.contenedor-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-inline: 5%;
+    padding-block: 10px;
+    background: linear-gradient(to right, rgb(13, 51, 68), rgb(21, 93, 126));   
+}
+.item-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;  
+}
+.item-footer:hover{
+    color: rgb(150, 150, 150);
+}

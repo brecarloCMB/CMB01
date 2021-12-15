@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Conf Bs As</title>
+</head>
+
+
+<body>
+    <!---Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/codoacodo2.png" alt="" width="70" class="d-inline-block align-text-top">
+                Conf Bs As
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letra-verde" href="comprar-tickets.html">Comprar tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner superior-->
+    <div id="bannerSuperior" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselSuperior" class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="8000">
+                <img src="img/ba3.jpg" class="d-block w-100" alt="img ba1">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+                <img src="img/ba2.jpg" class="d-block w-100" alt="img ba2">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+                <img src="img/ba1.jpg" class="d-block w-100" alt="img ba3">
+            </div>
+        </div>
+        <div class="top-transparencia"></div>
+        <div class="col-md-7 top-letra-clara">
+            <h3>Conf Bs As</h3>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ullam ex impedit quae eum fugit
+                dolorum
+                totam provident laboriosam accusantium facere maiores aut quos exercitationem sit omnis
+                asperiores
+                cumque quod!
+		Saludos de CMB
+            </h5>
+            <button class="btn btn-outline-light">Quiero ser orador</button>
+            <a class="btn btn-success boton-verde" href="comprar-tickets.html" role="button">Comprar tickets</a>
+        </div>
+    </div>
+
+
+    <h6 class="texto-centrado">CONOCE A LOS</h6>
+    <h2 class="texto-centrado">ORADORES</h2>
+
+
+    <!--Grupo de cards-->
+    <div class="d-flex justify-content-center">
+        <div class="card-group">
+            <div class="card">
+                <img src="img/steve.jpg" class="card-img-top" alt="img steve">
+                <div class="card-body">
+                    <span class="badge bg-warning text-dark">JavaScript</span>
+                    <span class="badge bg-info">React</span>
+                    <h5 class="card-title">Steve Jobs</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt, id
+                        temporibus iure ipsa molestiae, tempora perferendis sed asperiores cum harum rem fugit
+                        exercitationem error. Dolore eaque laudantium iste labore.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/bill.jpg" class="card-img-top" alt="img bill">
+                <div class="card-body">
+                    <span class="badge bg-warning text-dark">JavaScript</span>
+                    <span class="badge bg-info">React</span>
+                    <h5 class="card-title">Bill Gates</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos labore
+                        esse
+                        accusantium, vel alias. Autem debitis dignissimos omnis magni voluptates veritatis quae dolorum
+                        aut
+                        eveniet, expedita, quibusdam, eaque cupiditate?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/ada.jpeg" class="card-img-top" alt="img ada">
+                <div class="card-body">
+                    <span class="badge bg-secondary">Negocios</span>
+                    <span class="badge bg-danger">Startups</span>
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cumque
+                        voluptate,
+                        similique impedit esse repellat quidem, sequi reprehenderit blanditiis autem a voluptatem nisi
+                        aliquid deleniti accusamus repudiandae veniam est odio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Imagen Honolulu con texto y boton al lado-->
+    <div id="cardHonolulu" class="row text-white bg-dark bg-gradient">
+        <div class="col-md no-padding">
+            <img src="img/honolulu.jpg" class="img-fluid" alt="honolulu">
+        </div>
+        <div class="col-md no-padding">
+            <div class="card-body ">
+                <h4 class="card-title">Bs As - Octubre</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa deleniti
+                    provident dicta, dolorem corporis quas quisquam error veritatis omnis iste odit veniam molestiae
+                    sint tenetur fugiat totam consequatur nam?</p>
+                <button id="btnHonolulu" class="btn btn-dark">Conocé más</button>
+            </div>
+        </div>
+    </div>
+
+
+    <h6 class="texto-centrado">CONVIÉRTETE EN UN</h6>
+    <h2 class="texto-centrado">ORADOR</h2>
+    <p class="texto-centrado">Anotate como orador para dar una <a class="link-texto" href="#">charla ignite</a>.
+        Cuéntanos de qué quieres hablar!</p>
+
+    <!--Formulario para charla-->
+    <div class="d-flex justify-content-center">
+        <form class="formulario">
+            <div class="row form-group margen-int-form">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="form-group margen-int-form">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                    placeholder="¿Sobre qué quieres hablar?"></textarea>
+            </div>
+            <small id="textareaHelpBlock" class="form-text text-muted">
+                Recuerda incluir un título para tu charla
+            </small>
+            <div class="form-group margen-int-form">
+                <button type="submit" class="btn btn-success boton-verde col-12">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <!--Pie de pagina-->
+    <div class="contenedor-footer">
+        <a href="#" class="col nav-link item-footer">Preguntas frecuentes</a>
+        <a href="#" class="col nav-link item-footer">Contáctanos</a>
+        <a href="#" class="col nav-link item-footer">Prensa</a>
+        <a href="#" class="col nav-link item-footer">Conferencias</a>
+        <a href="#" class="col nav-link item-footer">Términos y condiciones</a>
+        <a href="#" class="col nav-link item-footer">Privacidad</a>
+        <a href="#" class="col nav-link item-footer">Estudiantes</a>
+    </div>
+
+</body>
+
+</html>
